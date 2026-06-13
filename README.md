@@ -1,4 +1,4 @@
- # 😊 Face Emotion Detection using Deep Learning
+# 😊 Face Emotion Detection using Deep Learning
 
 A real-time facial emotion detection system built using **TensorFlow**, **Keras**, and **OpenCV**. The application detects faces from webcam input and classifies human emotions using a Convolutional Neural Network (CNN).
 
@@ -32,6 +32,7 @@ The model is trained on facial expression datasets and can perform emotion recog
 - Trained deep learning model saved for reuse
 - Label encoding for emotion prediction
 - Easy-to-run Python application
+- High accuracy emotion recognition
 
 ---
 
@@ -61,7 +62,9 @@ face-emotion-detection/
 ├── requirements.txt
 ├── run_project.bat
 ├── README.md
-└── .gitignore
+├── .gitignore
+├── happy_cropped.png
+└── surprise_cropped.png
 ```
 
 ---
@@ -93,6 +96,16 @@ The webcam will open and display the detected emotion in real time.
 
 ---
 
+## 📸 Output Preview
+
+### Happy Emotion Detection
+![Happy Output](happy_cropped.png)
+
+### Surprise Emotion Detection
+![Surprise Output](surprise_cropped.png)
+
+---
+
 ## 🧠 Model Architecture
 
 The emotion classification model is based on a Convolutional Neural Network (CNN) consisting of:
@@ -117,18 +130,6 @@ The emotion classification model is based on a Convolutional Neural Network (CNN
 
 ---
 
-## 📸 Output Preview
-
-Add screenshots here after taking output images.
-
-Example:
-
-```markdown
-![Output](images/output.png)
-```
-
----
-
 ## 📈 Future Improvements
 
 - Improve accuracy for similar emotions
@@ -136,6 +137,7 @@ Example:
 - Deploy using Streamlit
 - Create web-based interface
 - Optimize model for faster inference
+- Add batch processing for multiple faces
 
 ---
 
@@ -153,8 +155,7 @@ Example:
 
 B.Tech CSE Student
 
-GitHub:
-https://github.com/anirudh657
+GitHub: https://github.com/anirudh657
 
 ---
 
